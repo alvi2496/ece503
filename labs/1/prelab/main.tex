@@ -1,0 +1,37 @@
+\documentclass[11pt,a4paper,twoside]{article}
+\usepackage[dutch]{babel}
+%laad de pakketten nodig om wiskunde weer te geven :
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
+%laad de pakketten voor figuren :
+\usepackage{graphicx}
+\usepackage{float,flafter}
+\usepackage{hyperref}
+\usepackage{inputenc}
+%zet de bladspiegel :
+\setlength\paperwidth{20.999cm}\setlength\paperheight{29.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{1.499cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{1.131cm}\setlength\textheight{25cm}\setlength\oddsidemargin{2.499cm}\setlength\textwidth{16.5cm}
+
+\begin{document}
+\begin{center}
+\hrule
+
+\vspace{.4cm}
+{\bf {\Huge ECE-503 Prelab 1}}
+\vspace{.2cm}
+\end{center}
+{\bf Name:\ Alvi Mahadi }  \\
+{\bf ID Number:\ V00912845} \hspace{\fill} 28 May 2019 \\
+\hrule
+
+
+\section{What's the name of the given training dataset?}
+The MNIST database (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems. The file name of the training dataset is \textbf{X1600.mat}.
+\section{What's the value of n\_0, n\_1, n\_2 ...n\_j?}
+784
+\section{What's the size of u\_j and C\_j?}
+\noindent\textbf{u\_j}--- 784x6
+\noindent\textbf{C\_j}--- 784x784
+\section{Explain in words how to implement calculation of mean vector?}
+The columns of the matrix is added to each other keeping the rows intact to obtain a single column matrix or vector and dividing the vector by the number of column, we can obtain the mean of the matrix or dataset.
+\section{For the given principle axis setup, what's the dimension of Uq\_j?} 
+784x29
+\end{document}
