@@ -1,9 +1,9 @@
 clc;
 clear all;
 close all;
-f = load('X1600.mat');
-t = load('Te28.mat');
-l = load('Lte28.mat');
+f = load('/home/alvi/Documents/courses/ece503/labs/1/data/X1600.mat');
+t = load('/home/alvi/Documents/courses/ece503/labs/1/data/Te28.mat');
+l = load('/home/alvi/Documents/courses/ece503/labs/1/data/Lte28.mat');
 f = f.X1600;
 t = t.Te28;
 l = l.Lte28;

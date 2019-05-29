@@ -3,7 +3,7 @@ function [correct, incorrect] = classify(T, l, U, mew)
     incorrect = 0;
     chunk = 1000;
     for k = 1:chunk:10000
-       time_before = datetime('now');
+       tic
        for i = k:k+chunk-1
             x = T(:, i);
             ej = double.empty;
@@ -21,6 +21,6 @@ function [correct, incorrect] = classify(T, l, U, mew)
                 incorrect = incorrect + 1;
             end
        end
-       fprintf("CPU time of %d - %d: %s\n", k, i, datetime('now') - time_before);
+       fprintf("CPU time of %d - %d: %f\n", k, i, toc);
     end
 end
