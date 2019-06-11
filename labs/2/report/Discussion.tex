@@ -1,0 +1,6 @@
+% !TEX root = main.tex
+\section{Discussion}
+\label{sect:discussion}
+Initially the training dataset structure is $D = {( x_n , y_n ), n = 1, 2,..., N }$ with N = 16,000, where, for each digit $x_n$ , a label is chosen from $y_n in {0,1,...,9}$ to match what $x_n$ represents. Originally each $x_n$ is a gray-scale digital image of $28\times28$ pixels, with components in the range [0, 1] with 0 and 1 denoting most white and most black pixels, respectively. In this experiment, each $x_n$ has been converted into a column vector of dimension d = 784 by stacking matrix $x_n$ column by column. In this way, each digit from train dataset can be regarded as a ``point'' in the 784-dimensional Euclidean space. If we put the entire training data together, column by column, to form a matrix $X = [x_1 x 2 ... x m]$ , then m = 16,000 and X has a size of $784\times60000$. 
+After employing PCA to the training dataset, we get $\mu$ with dimension of $784\times10$ and the principal components of the dataset is reduced to $784\times290$. This is a significant reduction of the dimension of the dataset.
+The result is also very encouraging. Every chunk of 1,000 image takes on an average of 0.5 sec to classify. Also the accuracy rate is quite high detecting 9,594 digit correctly and 406 incorrect classification. 

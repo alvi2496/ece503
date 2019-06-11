@@ -1,0 +1,89 @@
+% !TEX root = main.tex
+\section{Implementation Steps and Results}
+\label{sect:implementation-result}
+
+\subsection{Implementation Steps}
+\label{subsect:implementation_steps}
+We strictly followed the implementation steps stated in the laboratory manual. Initially we had the computation of $\mu$ a little wrong leading us to a wrong result on the accuracy. The computation of $\mu$ was corrected by debugging in the lab time to get the desired result.
+
+\subsection{Code}
+\label{subsect:code}
+
+\subsubsection{PCA Extraction(pca.m)}
+\begin{lstlisting}[language=Matlab]
+function [mew, U] = pca(f)
+	mew = double.empty;
+	U = double.empty;
+	chunk = 1600;
+	for i = 1:chunk:16000
+		Xj = f(:, i:i+chunk-1);
+		mew = [mew mean((Xj'))'];
+		A = Xj - mew(:, int16(i / 1600) + 1);
+		[Uj, \~{}] = eigs(((A * A') / 1600), 29);
+		U = [U Uj];
+	end
+end
+\end{lstlisting}
+
+\subsubsection{Classification(classify.m)}
+\begin{lstlisting}[language=Matlab]
+function [correct, incorrect] = classify(T, l, U, mew)
+	correct = 0;
+	incorrect = 0;
+	chunk = 1000;
+	for k = 1:chunk:10000
+		tic
+		for i = k:k+chunk-1
+			x = T(:, i);
+			ej = double.empty;
+			for j=1:10
+				Uq_j = U(:, (j-1)*29+1:j*29);
+				mew_j = mew(:, j);
+				Fj = Uq_j' * (x - mew_j);
+				x_head = Uq_j * Fj + mew_j;
+				ej = [ej norm(x - x_head)];
+			end
+			[~, class] = min(ej);
+			if (l(i) == class-1)
+				correct = correct + 1;
+			else
+				incorrect = incorrect + 1;
+			end
+		end
+		fprintf(``CPU time of %d - %d: %f\n", k, i, toc);
+	end
+end
+\end{lstlisting}
+
+\subsubsection{Main(main.m)}
+\begin{lstlisting}[language=Matlab]
+clc;
+clear all;
+close all;
+f = load(`/home/alvi/Documents/courses/ece503/labs/1/data/X1600.mat');
+t = load(`/home/alvi/Documents/courses/ece503/labs/1/data/Te28.mat');
+l = load(`/home/alvi/Documents/courses/ece503/labs/1/data/Lte28.mat');
+f = f.X1600;
+t = t.Te28;
+l = l.Lte28;
+[mew, U] = pca(f);
+[correct, incorrect] = classify(t, l, U, mew);
+fprintf(``Accuracy: Correct: %d, Incorrect: %d\n", correct, incorrect);
+\end{lstlisting}
+
+
+\subsection{Result}
+\label{subsect:result}
+\begin{verbatim}
+CPU time of 1 - 1000: 0.572029
+CPU time of 1001 - 2000: 0.592969
+CPU time of 2001 - 3000: 0.492402
+CPU time of 3001 - 4000: 0.501142
+CPU time of 4001 - 5000: 0.492034
+CPU time of 5001 - 6000: 0.491773
+CPU time of 6001 - 7000: 0.492966
+CPU time of 7001 - 8000: 0.499808
+CPU time of 8001 - 9000: 0.494592
+CPU time of 9001 - 10000: 0.492901
+Accuracy: Correct: 9594, Incorrect: 406
+\end{verbatim}
