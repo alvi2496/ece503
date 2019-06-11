@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.19)  4 JUN 2019 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.19)  4 JUN 2019 03:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,44 +350,69 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
-) (./main.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box30
+\lst@token=\toks24
+\lst@length=\count113
+\lst@currlwidth=\dimen119
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen120
+\lst@width=\dimen121
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen122
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen119
-\scratchbox=\box30
-\nofMPsegments=\count113
-\nofMParguments=\count114
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen120
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count120
+\scratchdimen=\dimen123
+\scratchbox=\box32
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen124
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -403,8 +428,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 13.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -412,320 +437,228 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count118
+\c@section@level=\count126
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+\c@lstlisting=\count127
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--61
 
  []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 26.
-<1.JPG, id=68, 309.155pt x 187.70125pt>
-File: 1.JPG Graphic file (type jpg)
- <use 1.JPG>
-Package pdftex.def Info: 1.JPG used on input line 31.
-(pdftex.def)             Requested size: 281.68513pt x 171.03752pt.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 36.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+(babel)             in language  on input line 62.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Introduction.tex
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(./Implementation-Steps-and-Results.tex
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 9.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<2.JPG, id=69, 301.6068pt x 251.4996pt>
-File: 2.JPG Graphic file (type jpg)
- <use 2.JPG>
-Package pdftex.def Info: 2.JPG used on input line 73.
-(pdftex.def)             Requested size: 291.06938pt x 242.72244pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 78.
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
-
+(babel)             in language  on input line 28.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 90.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./1.JPG>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(babel)             in language  on input line 38.
+ [2]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 103.
- [2 <./2.JPG>]
+(babel)             in language  on input line 75.
+) (./Discussion.tex
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 104.
- <3.JPG, id=97, 269.005pt x 174.6525pt>
-File: 3.JPG Graphic file (type jpg)
- <use 3.JPG>
-Package pdftex.def Info: 3.JPG used on input line 109.
-(pdftex.def)             Requested size: 234.73523pt x 152.40482pt.
+(babel)             in language  on input line 2.
+) (./Conclusions.tex
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 142.
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
-
- []
-
+(babel)             in language  on input line 2.
+ [3]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 2.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 155.
-[3 <./3.JPG>]
+(babel)             in language  on input line 67.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 167.
- <4.JPG, id=106, 302.12875pt x 177.16188pt>
-File: 4.JPG Graphic file (type jpg)
- <use 4.JPG>
-Package pdftex.def Info: 4.JPG used on input line 172.
-(pdftex.def)             Requested size: 234.73523pt x 137.64505pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 177.
-
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 205.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 205.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 205.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 205.
- [4 <./4.JPG>] <5.JPG, id=118, 317.988pt x 221.628pt>
-File: 5.JPG Graphic file (type jpg)
- <use 5.JPG>
-Package pdftex.def Info: 5.JPG used on input line 208.
-(pdftex.def)             Requested size: 328.62788pt x 229.0538pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 213.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 213.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 254.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 254.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 254.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 254.
- [5 <./5.JPG>]
-<6.JPG, id=133, 361.35pt x 197.73875pt>
-File: 6.JPG Graphic file (type jpg)
- <use 6.JPG>
-Package pdftex.def Info: 6.JPG used on input line 257.
-(pdftex.def)             Requested size: 281.68513pt x 154.14508pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 266.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 266.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 269.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 269.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 298.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 298.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 298.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 298.
- [6 <./6.JPG>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 300.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 300.
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-<8.JPG, id=142, 369.5406pt x 206.6922pt>
-File: 8.JPG Graphic file (type jpg)
- <use 8.JPG>
-Package pdftex.def Info: 8.JPG used on input line 339.
-(pdftex.def)             Requested size: 328.62788pt x 183.81038pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 354.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 354.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 354.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 354.
- [7 <./8.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
-
- []
-
-
-Overfull \hbox (8.44016pt too wide) in paragraph at lines 393--394
-[]\OT1/cmr/m/n/10.95 In or-der to com-pare the strain in two dif-fe-rent po-si-
-tion, cal-cu-late the va-lues using $\OML/cmm/m/it/10.95 Equation \OT1/cmr/m/n/
-10.95 (11)$.
- []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 397.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 397.
-<9.JPG, id=157, 387.94937pt x 92.84688pt>
-File: 9.JPG Graphic file (type jpg)
- <use 9.JPG>
-Package pdftex.def Info: 9.JPG used on input line 402.
-(pdftex.def)             Requested size: 281.68513pt x 67.41637pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 407.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 407.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 427.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 427.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 427.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 427.
- [8 <./9.JPG>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 428.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 428.
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
-
- []
-
-<10.JPG, id=166, 351.81438pt x 91.84312pt>
-File: 10.JPG Graphic file (type jpg)
- <use 10.JPG>
-Package pdftex.def Info: 10.JPG used on input line 436.
-(pdftex.def)             Requested size: 281.68513pt x 73.53484pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 465.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 465.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 465.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 465.
- [9 <./10.JPG>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 466.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 466.
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--470
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 473.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 473.
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+(babel)             in language  on input line 67.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D8712A54E5A94F5B49ECD6F853866240;914.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
+(rerunfilecheck)             Checksum: C382DBB58FAB0079B1677B86A13FEFD7;639.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 7026 strings out of 493029
- 99883 string characters out of 6136234
- 193178 words of memory out of 5000000
- 10389 multiletter control sequences out of 15000+600000
- 10734 words of font info for 40 fonts, out of 8000000 for 9000
+ 8805 strings out of 493029
+ 125043 string characters out of 6136234
+ 264719 words of memory out of 5000000
+ 12160 multiletter control sequences out of 15000+600000
+ 11582 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,32p,629b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb>
-Output written on main.pdf (10 pages, 442600 bytes).
+ 33i,5n,42p,828b,1721s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (4 pages, 131549 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
