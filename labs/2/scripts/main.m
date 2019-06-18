@@ -52,8 +52,6 @@ for i=1:30
    end
 end
 error_rate = mis_class / 30;
-% disp(Yresult);
-% disp(error_rate);
 tp = sum(Yresult(1, 1:10)) + sum(Yresult(2, 11:20)) + sum(Yresult(3, 21:30));
 fp = sum(Yresult(1, 11:30)) + sum(Yresult(2, 1:10)) + sum(Yresult(2, 21:30)) + sum(Yresult(3, 1:20));
 fn = 30 - tp;
@@ -62,3 +60,4 @@ confusion_matrix = [tp fp; fn tn];
 fprintf("Confusion Matrix : \n");
 disp(confusion_matrix);
 fprintf("Error Rate: %f\n", error_rate);
+disp(Yresult);
