@@ -1,21 +1,11 @@
 % !TEX root = main.tex
 \section{Introduction and Objectives}
 \label{sect:introduction}
-Research for handwritten digit recognition (HWDR) by machine learning (ML) techniques has
-stayed active in the past several decades. The sustained interest in HWDR is primarily due to
-its broad applications in bank check processing, postal mail sorting, automatic address reading,
-and mail routing, etc. In these applications, both accuracy and speed of digit recognition are
-critical indicators of system performance. In a machine learning setting, we are given a training
-data set consisting of a number of samples of handwritten digits, each belongs to one of the ten
-classes ${D_j , j = 0, 1, ..., 9}$ where class $D_j$ collects all data samples labeled as digit j. The HWDR
-problem seeks to develop an approach to utilizing these known data classes to train a multi-
-category classifier so as to recognize handwritten digits outside the training data. The primary
-challenge arising from the HWDR problem lies in the fact that handwritten digits (within the
-same digit class) vary widely in terms of shape, line width, and style, even when they are
-properly centralized and normalized in size.
-Classification of multi-category data can be accomplished by ML methods that are originally
-intended for classifying binary-class data using the so-called one-versus-the-rest approach.
-Alternatively, there are ML techniques that deal with multi-category data directly. A
-representative method of this type is based on principal component analysis (PCA). The objective of this
-laboratory experiment is to learn PCA as a technique for pattern recognition and apply it to the
-HWDR problem.
+In this experiment, we investigate a technique for multi-category classification based on binary
+classifications. The technique is then applied to Fisher`s 3-class datasets of Iris plants to
+demonstrate its effectiveness. The dataset of Iris plants to be used in this experiment was created
+and published in 1936 by R. A. Fisher [1]. Fisher's paper is a classic in the field and is referenced
+frequently to this day, as a matter of fact the dataset is arguably the best-known in the pattern
+recognition literature [2]. The dataset includes features of 150 Iris plants of 3 species known as
+Setosa, Versicolor, and Virginica, where each sample Iris is represented by a 4-dimensional vector
+in terms of lengths and widths of the sepal and petal of the flower.
