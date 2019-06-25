@@ -1,0 +1,11 @@
+% !TEX root = main.tex
+\section{Discussion}
+\label{sect:discussion}
+Fisher’s dataset is a matrix of size $5\times150$ whose first 4 rows are the data of the 150 samples, and the last row contains labels of the 150 flowers. The matrix D\_iris was constructed so that its first 50 columns are associated with Iris Setosa, the next 50 columns are for Iris Versicolor, and the last 50 columns are for Iris Virginica. For each data class of 50 samples, 40 samples are used for training and the remaining 10 samples are used for testing. Random selection of the samples is made for all three data classes as follows. 
+
+After going through the process stated in section 3.3 in [3], we've found our confusion matrix as
+\begin{verbatim}
+29     1
+1    29
+\end{verbatim}
+which essentially points that we have 29 out of 30 test cases as is classified True Positive, 1 out of 30 cases is classified as False Positive. The $12^{th}$ data which is actually ``Versicolor'' is classified as ``Verginica''. From the confusion matrix we can observe that, the Error Rate of our experiment is 0.03333 which is very accurate.

@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+D_tr = load('/home/alvi/Documents/courses/ece503/labs/3/data/D_build_tr.mat');
+Xtr = D_tr.D_build_tr(1:8,:);
+Ytr = D_tr.D_build_tr(9:10, :);
+D_te = load('/home/alvi/Documents/courses/ece503/labs/3/data/D_build_te.mat');
+Xte = D_te.D_build_te(1:8,:);
+Yte = D_te.D_build_te(9:10, :);
+Xtr = [Xtr' ones(640, 1)];
+W = (inv(Xtr' * Xtr) * Xtr') * Ytr';
