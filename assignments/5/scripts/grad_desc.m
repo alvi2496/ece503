@@ -19,10 +19,10 @@ while er >= epsi,
   er = norm(adk);
   k = k + 1;
 end
-disp('solution:')
-xs = xk + adk
-disp('objective function at solution point:')
-fs = feval(fname,xs)
-format short
-disp('number of iterations performed:')
-k
+% disp('solution:')
+xs = xk + adk;
+% disp('objective function at solution point:')
+fs = feval(fname,xs);
+% format short
+% disp('number of iterations performed:')
+k;

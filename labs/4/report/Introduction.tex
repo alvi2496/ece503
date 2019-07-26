@@ -1,22 +1,11 @@
 % !TEX root = main.tex
 \section{Introduction and Objectives}
 \label{sect:introduction}
-In this experiment, we build a multi-output linear model to predict energy efficiency of residential
-buildings in terms of heating and cooling loads. The database, from which the model in question
-learns, was created by A. Tsanas and A. Xifara in 2012 [R1] and has since been popular for
-performance evaluation of various prediction as well as classification techniques [R2].
-In [R1], an energy analysis using 12 different building shapes was carried out, where the buildings
-differ with respect to a total of eight features including relative compactness, surface area,   wall
-area,   glazing area, and glazing area distribution, and so on. The data set contains 768 samples,
-each sample is characterized by a vector $x$ with 8 components which are numerical values of the
-eight features mentioned above. Also associated with each sample is a 2-component output
-vector y representing heating and cooling loads of the building. Here we take the term “output
-vector” to mean a functional mapping from a set of eight features of a building as seen in a vector
-$x$ to the building’s heating and cooling loads.
-Clearly, we are dealing with a dataset of the form ${(x n , y n ), n = 1, 2, ..., N}$ with $x_n \epsilon R^{8\times1}$ ,
-$y_n \epsilon R{2\times1}$ and $N = 768$. The objective of the experiment is to develop a 2-output linear model that
-predicts heating and cooling loads for an ``unseen'' residential building characterized by a new
-feature vector $x$.
-In this experiment, the above data set was divided into two sets – one for training and the other
-for testing. The train data include 640 samples and the associated outputs while the test data
-include 128 samples and their outputs, and the division was done at random.
+The goal of this experiment is to develop a computer program for automatic diagnosis of breast
+cancer based on logistic regression where the logistic loss function is defined by a dataset
+provided by Dr. Wolberg from General Surgery Department, University of Wisconsin,
+Madison, WI in 1990’s. The dataset contains 30 carefully selected features from each of 569
+patients [R1],[R2]. The same dataset has also been made available from the UCI Machine
+Learning Repository [R3]. The parameters in the logistic regression model are optimized by
+minimizing the logistic loss function mentioned above. In this experiment, the optimization is
+performed using the gradient descent (GD) algorithm.
