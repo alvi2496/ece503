@@ -1,4 +1,5 @@
 function processed_data = process(raw_data)
-    processed_data = normalize(raw_data);
+    m = mean(raw_data);
+    processed_data = raw_data - m;
 end
 
